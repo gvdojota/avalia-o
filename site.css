@@ -98,25 +98,69 @@ header {
     padding: 20px;    
 } 
 }
+
+
+
 p{
     text-align: center;
     font-size: large;
 }
-.fim{ p{ 
-    color: white;
+   
+.fim {
+
+
     padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.fim a {
+    padding: 20px;
+    color: white;
+}
+
+.contato {
+    color: white;
+}
+
+.contato a {
     display: flex;
     justify-content: center;
     text-align: center;
-   
-} 
+    padding: 15px;
+    color: white;
+}
+.rede-socias {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 
 }
-.fim{ a {
-    color: white;
-    text-align: center;
+
+.rede-socias img {
+    height: 100px;
+    height: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+.link h3 {
+    color: #fff;
     padding: 20px;
     display: flex;
     justify-content: center;
-
-}}
+}
+button {
+    justify-content: center;
+    text-align: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
